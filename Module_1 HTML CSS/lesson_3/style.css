@@ -1,0 +1,44 @@
+img {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.inspiration {
+  border: 3px solid red;
+  display: flex;
+}
+.inspiration > * {
+  border: 3px solid green;
+}
+
+.inspiration-content {
+  width: 50%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inspiration-imgs {
+  position: relative;
+  width: 50%;
+  height: 60vh;
+  background-color: black;
+}
+
+.inspiration-img-1 {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+}
+
+.inspiration-img-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.inspiration-img-3 {
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+}

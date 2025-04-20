@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+
+.offers-div {
+  border: 4px solid red;
+  padding: 1em;
+  display: flex;
+  justify-content: flex-end;
+}
+.disscount-p {
+  border: 3px solid green;
+  width: 30%;
+  display: inline;
+}
+.navbar {
+  border: 4px solid red;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-links-1 {
+  border: 4px solid green;
+  display: inline;
+}
+.navbar-links-2 {
+  border: 4px solid green;
+  display: inline;
+}
+.main {
+  border: 4px solid red;
+  padding: 5em 1em;
+}
+.main-title {
+  font-size: 4rem;
+  width: 50%;
+  margin: 0.5em 0;
+}
+
+.favourites {
+  border: 4px solid red;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fav-productcontainer {
+  border: 4px solid green;
+  width: 100%;
+  margin: 2em 0;
+  display: flex;
+}
+
+.fav-productcontainer > * {
+  border: 4px solid yellow;
+}
+
+.product {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.innovative {
+  border: 4px solid red;
+  display: flex;
+}
+.innovative > * {
+  border: 4px solid green;
+}
+.innovative-img {
+  width: 50%;
+}
+.innovative-content {
+  width: 50%;
+  padding: 2em;
+}
+.bags {
+  border: 4px solid yellow;
+  display: flex;
+}
+.bag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inspiration {
+  border: 4px solid red;
+  display: flex;
+}
+.inspiration > * {
+  border: 2px solid green;
+}
+.inspiration-content {
+  width: 50%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inspiration-image {
+  width: 50%;
+}

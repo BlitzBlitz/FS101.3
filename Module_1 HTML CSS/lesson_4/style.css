@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Vogue";
+  src: url("./classy_vogue/Classyvogueregular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url("./bg.jpg");
+  background-size: cover;
+}
+.main-title {
+  font-family: "Vogue";
+  font-weight: 600;
+  letter-spacing: 0.5rem;
+}
+
+.content {
+  line-height: 1rem;
+  margin: 1em;
+  padding: 2em;
+  /* border-radius: 1em; */
+  border-top-left-radius: 2em;
+  border-bottom-left-radius: 2em;
+  background-color: #f7f0ea;
+}

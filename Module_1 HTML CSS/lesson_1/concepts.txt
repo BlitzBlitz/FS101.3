@@ -1,0 +1,101 @@
+HTML
+    What    is the language of TAGs used to descride information
+    Why     To describe the information that we send 
+                    so it can be displayed well in the other device 
+    How     
+            1. Make a HTML file
+            
+            2. Use TAGs
+                <h1></h1> ~ <h6></h6>       ->  Titles/Subtitles
+                <p></p>                     ->  Paragraphs    
+                <span></span>               ->  short text
+
+                <a href="https//www.wired.com">Go to Wired</a>                     -> Link to a part of the page/webpage/website
+                <img src="img.jpg"/>
+
+
+                a. their name
+                b. tags can be opening-closing
+                c. the information(content) is placed 
+                        in between opening-closing tag 
+            
+            3. Use Attributes
+                To give the tag extra information
+                EX: 
+                    <a href="https//www.wired.com">Go to Wired</a>                     -> Link to a part of the page/webpage/website
+                Always add attributes at the opping tag
+
+CSS
+    What    is the language of styling
+    Why     to make te information appear better on the screen
+    How
+            1.  Create a CSS file    "style.css"
+            2.  Select the element that you want to style
+                    a. by tag's name    h1, div                     (select all the elements with this tag)
+                    b. by class         .navbar , .main-title       (select a group of elements)
+                    c. by id            #sales                      (select just one element)
+            3.  Add styling
+                    a. Layout: Where every component should be put  [Styling the Containers]
+                        a0. border is your best friend
+                        aa. Width           %
+                                block-elements -> occupy 100% of the width
+                                                  don`t allow anyone to sit on the same row with them
+                                                  EX: div, p, h1
+                                inline-elements-> occupy as much width as they need
+                                                  allow other elements to sit on the same row with them  
+                                                    EX: a, img, span, button 
+                        ab. Spacing
+                                outside the border -> margin
+                                                    -> use it to seperate 2 elements
+                                inside the border  -> padding
+                                                    ->sepserate content from border
+                        ac. Positioning
+                                Positioning in GROUP
+                                        0.  put everything inside Containers
+                                        1.  are the children positioned right? 
+                                                -> if not => display:flex;
+                                        2.  are they in a row or in a column? 
+                                                ->  if not => flex-direction: row/column;
+                                        3.  position the children 
+                                                -> left-right [justify-content]
+                                                -> up-down    [align-items]
+
+
+                                Positioning individual elements   -> 1 or more elements inside the container are 
+                                                                        positioned without following the group
+                                        1. add position: absolute; to the element
+                                        2. add position: relative; to the parent
+                                        3. declare the space for at least 2 directions (top,bottom,left,right)
+                                        
+                    b. Components: How every element should look    [Styling the elements]
+                        ba. font -> text styling
+                                font-family: serif - san-serif
+                                font-size: 2rem;                [1rem -> 16px]
+                                font-weight: 700;
+                                letter-spacing: 0.5rem;
+                                line-height: 2rem
+
+                        bb. color -> 
+                                color: red; -> text coloring
+                                background-color: lightgreen
+                        bc. background
+                                background-image: url('mybg.png');
+                                background-size: cover;
+                        bd. borders 
+                                border: 2px solid red;
+                                border-radius: 10px;
+Homework:
+        1. Download Roboto and another Serif font 
+                unzip them and place them into the project folder
+                import the fonts at CSS
+                use Roboto for all the elements and Serif for some of them
+        2. Copy the color of the background of some of the containers using
+                colorZilla[add it as extention at chrome]
+        3. Fix the borders of the rounded badges 
+
+
+Building a website
+    1.  Find a template
+    2.  Devide the template
+    3.  Describe the elements with HTML
+    4.  Style the elemtns with CSS

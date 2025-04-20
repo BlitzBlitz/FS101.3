@@ -1,0 +1,19 @@
+h1 {
+  border: 2px solid red;
+  width: 30%;
+}
+
+.p-contianer {
+  border: 2px solid red;
+  height: 50vh;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+p {
+  border: 5px solid green;
+  padding: 1em;
+  width: 25%;
+}
