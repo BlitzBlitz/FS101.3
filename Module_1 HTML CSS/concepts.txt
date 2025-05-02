@@ -66,7 +66,17 @@ CSS
                                         1. add position: absolute; to the element
                                         2. add position: relative; to the parent
                                         3. declare the space for at least 2 directions (top,bottom,left,right)
-                                        
+                        ad. Responsive Design
+                                Realtive vs Fixed Units
+                                        Realtive-> they are related to another unit
+                                                %       ->  it's relative to the width/height of the parent
+                                                vw / vh ->  it's relative to the width/height of the device
+                                                em      ->  it's relative to the font-size of the element
+                                                rem     ->  it's relative to the font-size of the root element
+                                        Fixed -> Not realted to anything
+
+
+
                     b. Components: How every element should look    [Styling the elements]
                         ba. font -> text styling
                                 font-family: serif - san-serif

@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-1,
+.container-3 {
+  width: 100%;
+  margin: 1em 0;
+  padding: 1em;
+  height: 30vh;
+  background-color: lightblue;
+}
+
+.container-2 {
+  width: 200px;
+  padding: 3em;
+  background-color: lightcoral;
+}
+
+.container-3 {
+  overflow-x: scroll;
+}
+
+.container-4 {
+  display: inline-block;
+  width: 110vh;
+  border: 3px solid red;
+  padding: 3em;
+  background-color: lightseagreen;
+}
+
+h1 {
+  background-color: lightgreen;
+  font-size: 2rem;
+  padding: 1em;
+}
