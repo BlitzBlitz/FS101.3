@@ -1,0 +1,93 @@
+0. A Programming Language:
+    What:   A Language used to give commands to the computer
+    Why:    To automate most of the stuffs
+    How:    We write commands in the .js file to order 
+                the comptuer to do the heavy lifting
+
+1. Varaibles
+    What:   Are boxes in the memory that can store data/content/information
+    Why:    To store data so we can use it for later
+    How:    
+            let age;      //reserve a box in the memory [declaring a variable]
+            let name;
+
+            age = 10;       //saving 10 to the variable "age"
+            name = "Jack";
+
+
+2. Data Types
+    What:   Categories of data/content/information
+    Why:    To Treat(save, delete, change) data better
+    How:
+            types:   number     10, -100, 0
+                     string     "Jack", "name", "10"
+                     boolean    True, False
+
+3. Operators
+    What:   Small functions that can do one small job
+    Why:    To Do calculations (math, logic)
+    How: 
+            Arithmetic: +, -, *, /, %
+
+                5 / 2 = 2.5 | 2(1)
+                5 % 2 = 1
+
+                7 % 2 = 1
+                8 % 2 = 0
+            Conditional:    > < >= <= == !=
+
+                5 > 2               True
+                5 > 5               False
+                "Anna" > "Ben"          False
+                3   >  4
+
+                "Anna" < "Annastasia"   True
+
+                "Anna" < "Anna"         False
+
+                10 != -10               True
+
+            Logical: and: && , or: ||, not: !
+                
+                age >= 18 && age <= 66
+
+4. Conditional Statment
+
+    if credetials are right, let the user enter the profile page
+
+    parts of the "Conditional Statment":
+        a. the "if" keyword
+        b. the condition    ()
+        c. the body         {}
+        d. the "else" part
+
+        EX: if(age > 18){
+            console.log("Enter the shop");
+        }
+5. Looping Statment
+    What: A Statment that repeats its body when the condition is TRUE
+    Why:  When we want a piece of code to repeat 
+    How:  Use the "while" keyword
+
+        2 Types of loops:
+            a. Known Loop (the number of reps is known before the loop starts)
+                number of reps: 3
+
+                starting_point: 0
+                ending_point:   3
+                step:           +1
+
+                number of reps: user_number
+
+                starting_point: 0
+                ending_point:   user_number
+                step:           +1
+
+                number of reps: user_age
+
+                starting_point: 0
+                ending_point:   user_age
+                step:           +1
+
+
+            b. UnKown Loop (the number of reps is not known before the loop starts)
