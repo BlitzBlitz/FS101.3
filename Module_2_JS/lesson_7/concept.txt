@@ -1,0 +1,17 @@
+CRUD 
+    What:   Create Read Update Delete
+    Why:    To save and maniplate data [to change the data]
+    How:    
+            1. Read(Display it on the screen)
+                a. the data is saved into an array(the state)
+                b. create all the HTML elements that 
+                        you need to diplay the data on the screen
+                c.  add the created elements into the UI
+            
+            1a. Searching
+                //in    keyword, the todos data
+                //cal   declare results_array
+                //      read the todos data
+                //      for each todo: check the title for matching/contianing
+                //          if it contains -> add the todo into results_array 
+                //out   display matching todo/s (results_array)
