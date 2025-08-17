@@ -15,3 +15,34 @@ CRUD
                 //      for each todo: check the title for matching/contianing
                 //          if it contains -> add the todo into results_array 
                 //out   display matching todo/s (results_array)
+
+
+10. Events
+        What    User does something
+        Why     To take input from user
+        How     
+
+                Event: User clicks the logout BTN
+                Event Target    The HTML element WHERE the event happends EX: logout-btn
+                Event Type      The category of the event                 EX: click   
+                Event Handler   The function that is going to             EX: logout()   
+                                    run whenever the event happeds
+
+                
+                1. Figure out the event and its 3 parts
+                    
+                    Event: User presses enter on the search-bar element
+
+                    Event Target:   the form
+                    Event Type:     submit (<form>)     
+                    Event Handler:  handleSearch
+
+                2. Register an event listener at the target
+                    const formElement = document.querySelector("#search-form");
+                    formElement.addEventListener("submit", handleSearch);
+                
+                3. Prevent the form from reloading the page
+                    event.preventDefault();
+                
+                4. Collect the data from the <input> elements
+                     

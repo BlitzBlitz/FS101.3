@@ -98,20 +98,27 @@ function displayTodos(todos_data) {
 displayTodos(todos_data);
 
 //Searching
-// let user_keyword = prompt("Enter the todo title: ");
 
-function search(keyword, todos_data) {
+function searchAndDisplay(keyword, todos_data) {
   let results_array = [];
   for (let i = 0; i < todos_data.length; i++) {
-    const current_todo = todos_data[i];
-    if (current_todo.title.includes(keyword)) {
-      results_array.push(current_todo);
+    const current_todo_title = todos_data[i].title.toLowerCase();
+    if (current_todo_title.includes(keyword.toLowerCase())) {
+      results_array.push(todos_data[i]);
     }
   }
   displayTodos(results_array);
 }
-// search(user_keyword, todos_data);
+const formElement = document.querySelector("#search-form");
+formElement.addEventListener("submit", handleSearch);
 
+function handleSearch(event) {
+  event.preventDefault();
+  const searchInputElement = document.querySelector("#search-keyword");
+  const keyword = searchInputElement.value;
+  console.log(keyword);
+  searchAndDisplay(keyword, todos_data);
+}
 //in    todos_data
 //cal   declare filtred_todos
 //      read all the data
